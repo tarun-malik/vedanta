@@ -42,4 +42,6 @@ public class DoctorController {
     public ResponseEntity<GenericResponseDto> removeDoctor(@RequestParam Long id) {
         return new ResponseEntity<>(doctorService.removeDoctor(id), HttpStatusCode.valueOf(200));
     }
+
+    //New test line
 }
